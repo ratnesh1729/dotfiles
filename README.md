@@ -4,6 +4,8 @@ Modified from https://github.com/jardon-u/dotfiles.git for my usage
 
 Sample screenshot in python mode - ![Alt text](./screenshot.png?raw=true "Python")
 
+Clone - Use `recursive` clone to get sky-color-clock (sample in above screenshot)
+
 * Emacs
   * auto install emacs (assuming apt-get does emacs26 and/or above)
   * auto install rtags
