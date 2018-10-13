@@ -7,7 +7,7 @@ Clone - Use `recursive` clone to get sky-color-clock (sample in screenshot below
 Sample screenshot in python mode - ![Alt text](./screenshot.png?raw=true "Python")
 
 
-* Emacs
+* Some important features
   * auto install emacs (assuming apt-get does emacs26 and/or above)
   * auto install rtags
   * Extensive usage of **use-package** commands. This helps me changing machines easily.
