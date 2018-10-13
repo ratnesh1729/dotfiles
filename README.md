@@ -23,7 +23,8 @@ Sample screenshot in python mode - ![Alt text](./screenshot.png?raw=true "Python
   * Super comprehensive **Ipython** mode using Ein
   * Spellcheck everywhere (code comments, text)
   * Smart completion everywhere (shell script, lisp, text, python)
-  * Check content of .emacs for more details...
+  * Check content of .emacs for more details..
+  * `which-key` package shows key bindings when you press a key. A super-important package if you forget bindings.
 
 ## Install on Linux - tested on Ubuntu 16.04
 
