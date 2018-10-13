@@ -1,0 +1,11 @@
+
+* Health
+** TODO Go for a movie
+   SCHEDULED: <2018-08-05 Sun>
+* Finance
+** TODO Call a friend
+   SCHEDULED: <2018-08-07 Tue>
+* Work
+** TODO Email manager
+   SCHEDULED: <2018-08-12 Sun>
+

@@ -1,0 +1,13 @@
+elpa
+.cask
+semanticdb
+backup
+auto-save-list
+session.*
+.python-environments
+custom.el
+irony
+smex-items
+company-statistics-cache.el
+ac-comphist.dat
+anaconda-mode
