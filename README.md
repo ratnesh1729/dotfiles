@@ -31,7 +31,7 @@ Sample screenshot in python mode - ![Alt text](./screenshot.png?raw=true "Python
    ./install.sh
    * Alternatively you can just use hyperlink ~/.emacs.d folder to the folder here.
 
-## FOR MAC USERS
+## For Mac Users
   * On mac use `brew` to install cmake, rtags, cask.
   * Then just hyper link ~/.emacs.d to this repo's emacs.d
   * You will still need to follow sections below for the stuffs mentioned below.
