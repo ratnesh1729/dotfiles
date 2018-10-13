@@ -1,9 +1,9 @@
 # dotfiles
-MODFIED from https://github.com/jardon-u/dotfiles.git for my usage
+Modified from https://github.com/jardon-u/dotfiles.git for my usage
 ## Content
 
-Sample screenshot in python mode - [![Alt text](./screenshot.png?raw=true "Python")]
-  
+Sample screenshot in python mode - ![Alt text](./screenshot.png?raw=true "Python")
+
 * Emacs
   * auto install emacs (assuming apt-get does emacs26 and/or above)
   * auto install rtags
@@ -26,10 +26,10 @@ Sample screenshot in python mode - [![Alt text](./screenshot.png?raw=true "Pytho
 
    Run
    ./install.sh
-   * Alternatively you can just use hyperlink emacs.d folder to the folder here. 
+   * Alternatively you can just use hyperlink ~/.emacs.d folder to the folder here.
 
 ## FOR MAC USERS
-  * On mac use `brew` to install cmake, rtags, cask. 
+  * On mac use `brew` to install cmake, rtags, cask.
   * Then just hyper link ~/.emacs.d to this repo's emacs.d
   * You will still need to follow sections below for the stuffs mentioned below.
 
@@ -45,7 +45,7 @@ Sample screenshot in python mode - [![Alt text](./screenshot.png?raw=true "Pytho
    * Follow `install` section above
    * Make sure cask and Jedi and irony-server are installed
 
-### Rtags
+### Rtags for C/C++ code completion
    * For Cmake based project use cmake to compile with output of compile commands.json
    * For C: to create compile_commands.json (Makefile project) use Bear. If you do not want to use bear then follow - https://eklitzke.org/using-emacs-and-rtags-with-autotools-c++-projects (section - configuring gcc wrapper).
 
@@ -56,11 +56,10 @@ Sample screenshot in python mode - [![Alt text](./screenshot.png?raw=true "Pytho
    * For elpy, you can check M-x elpy-status - this will show all configuration info including virtualenv you're in.
 
 ### Latex
-  * May need to do sudo apt-get install texlive-fonts-recommended and sudo apt-get install texlive-fonts-extra 
+  * May need to do sudo apt-get install texlive-fonts-recommended and sudo apt-get install texlive-fonts-extra
   * Latex mode also displays pdf on side and for pdf viewing - uncomment `only for the first time using this configuration` -
   (pdf-tools-install) in  editing/_init.el . Else it will keep bothering with installation every time you run emacs.
-  
+
 ### Sky color mode
   * Cloning recursively automatically installs `sky-color-clock`. In order to get weather info you need to replace
     variable `API-Key` in the display/_init.el file. Also include proper latitude and city id in the same place.
-    
