@@ -8,46 +8,46 @@ Sample screenshot in python mode - ![Alt text](./screenshot.png?raw=true "Python
 
 
 * Some important features
-  * auto install emacs (assuming apt-get does emacs26 and/or above)
-  * auto install rtags
+  * auto install emacs (assuming apt-get does emacs26 and/or above).
+  * auto install rtags.
   * Extensive usage of **use-package** commands. This helps me changing machines easily.
   * Comprehensive **C++** environment
-    * Flycheck with clang
-    * Code navigation with rtags (based on on-the-fly compilation)
-    * Improved gdb experience
-    * F8 compile, F9 recompile
-  * **Python** linting, code navigation and correct code completion
-    * Relies on Elpy mode - M-. and M-* for jumping into and jumping back
+    * Flycheck with clang.
+    * Code navigation with rtags (based on on-the-fly compilation).
+    * Improved gdb experience.
+    * F8 compile, F9 recompile.
+  * **Python** linting, code navigation and correct code completion.
+    * Relies on Elpy mode - M-. and M-* for jumping into and jumping back.
   * Comprehensive **latex** environment - C-a for building - builds all - latex, pdflatex and bibtex in one shot
     * For adding to bib tex files - please refer to development/latex folder.
-  * Super comprehensive **Ipython** mode using Ein
-  * Spellcheck everywhere (code comments, text)
-  * Smart completion everywhere (shell script, lisp, text, python)
+  * Super comprehensive **Ipython** mode using Ein.
+  * Spellcheck everywhere (code comments, text).
+  * Smart completion everywhere (shell script, lisp, text, python).
   * Check content of .emacs for more details..
   * `which-key` package shows key bindings when you press a key. A super-important package if you forget bindings.
+  * I also use `treemacs` when working on libraries. If you want to use enanle it inside navigation/_init.el.
 
 ## Install on Linux - tested on Ubuntu 16.04
-
    Run
    ./install.sh
    * Alternatively you can just use hyperlink ~/.emacs.d folder to the folder here.
 
 ## For Mac Users
   * On mac use `brew` to install cmake, rtags, cask.
-  * Then just hyper link ~/.emacs.d to this repo's emacs.d
+  * Then just hyper link ~/.emacs.d to this repo's emacs.d.
   * You will still need to follow sections below for the stuffs mentioned below.
 
 ## Bug
 
-   * Rarely an error saying flycheck-mode failed will appear when opening a C++ buffer
-   * Very rarely emacs will hang when working in a C++ buffer (seems related to rtags)
-   * If you experience display glitches or issue with indentation, make sure to upgrade to emacs 26
+   * Rarely an error saying flycheck-mode failed will appear when opening a C++ buffer.
+   * Very rarely emacs will hang when working in a C++ buffer (seems related to rtags).
+   * If you experience display glitches or issue with indentation, make sure to upgrade to emacs 26.
 
 
 ## Usage Notes
    * For some reason cmake-ide install fails. Just install using emacs.
-   * Follow `install` section above
-   * Make sure cask and Jedi and irony-server are installed
+   * Follow `install` section above.
+   * Make sure cask and Jedi and irony-server are installed.
 
 ### Rtags for C/C++ code completion
    * For Cmake based project use cmake to compile with output of compile commands.json

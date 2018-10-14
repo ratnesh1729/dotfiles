@@ -10,7 +10,15 @@ ln -sinv ${DIR}/emacs.d ~/.emacs.d
 sudo apt-get install git git-gui gitk cmake ipython python-virtualenv pylint clang-3.8 libclang-3.8-dev libncurses5-dev
 
 # Emacs
-sudo apt-get install emacs
+read -p "Do you want to install emacs 26.1 from source (configuration may not work otherwise) ? (y) " -n 1 -r
+echo    # (optional) move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    echo "Installing emacs26 from source"
+    ./install_emacs26.sh 
+else
+    echo "I assume you have emacs 26 installed by yourself."
+fi
 # emacs configuration
 pushd ~/.emacs.d
 echo "Adding .cask/bin to your $PATH"

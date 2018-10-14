@@ -1,6 +1,5 @@
 (load "~/.emacs.d/display/visual.el")
 (load "~/.emacs.d/display/text-display.el")
-(package-refresh-contents)
 (defvar myDispPackages
   '(color-theme-modern
     sublime-themes
