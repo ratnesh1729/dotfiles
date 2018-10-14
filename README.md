@@ -35,7 +35,7 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
 ## For Mac Users
   * On mac use `brew` to install cmake, rtags, cask.
   * Then just hyper link ~/.emacs.d to this repo's emacs.d.
-  * You will still need to follow sections below for the stuffs mentioned below.
+  * You will still need to follow sections below for a few stuffs and notes.
 
 ## Bug
 
