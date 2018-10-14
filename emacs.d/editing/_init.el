@@ -81,7 +81,13 @@
  (setq pdf-annot-activate-created-annotations t)
  ;; use normal isearch
  (define-key pdf-view-mode-map (kbd "C-s") 'isearch-forward))
+ 
+;; docker file mode
+(use-package dockerfile-mode
+  :ensure t)
+(add-to-list 'auto-mode-alist '("Dockerfile\\'" . dockerfile-mode))
 
+;; expand region is awesome for semantic grouping - works for python, cpp and more
 (use-package expand-region
   :ensure t
   :config

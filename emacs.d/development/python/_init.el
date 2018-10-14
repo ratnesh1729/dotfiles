@@ -1,11 +1,14 @@
-(defun my/python-mode-hook ()
-   (add-to-list 'company-backends 'company-jedi))
- (add-hook 'python-mode-hook 'my/python-mode-hook)
- (add-hook 'python-mode-hook 'eldoc-mode)
+;;(defun my/python-mode-hook ()
+;;   (add-to-list 'company-backends 'company-jedi))
+;; (add-hook 'python-mode-hook 'my/python-mode-hook)
+;; (add-hook 'python-mode-hook 'eldoc-mode)
 
 ;; delete trailing whitespaces on save: NOT working in EIN mode - solution for other modes below
 ;;(add-hook 'python-mode-hook
 ;;          (lambda () (add-to-list 'write-file-functions 'delete-trailing-whitespace)))
+
+;; checking to see if I can disable auto complete mode and get exactly one code completion
+(add-hook 'python-mode-hook (lambda () (auto-complete-mode -1)))
 
 ;; testing with elpy
 (defvar myPackages
@@ -23,11 +26,11 @@
       myPackages)
 
 (use-package jedi
-  :ensure t
-  :init
-  (setq jedi:complete-on-dot t)
-  :config
-  (add-hook 'python-mode-hook 'jedi:setup))
+   :ensure t
+   :init
+   (setq jedi:complete-on-dot t)
+   :config
+   (add-hook 'python-mode-hook 'jedi:setup))
 
 
 (use-package elpy

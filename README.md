@@ -8,24 +8,29 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
 
 
 * Some important features
-  * auto install emacs (assuming apt-get does emacs26 and/or above).
-  * auto install rtags.
+  * auto install emacs and rtags (for cpp completion), including all packages when emacs loads first time.
   * Extensive usage of **use-package** commands. This helps me changing machines easily.
+  * Automatically finds `indentation scheme` for python and c++
   * Comprehensive **C++** environment
     * Flycheck with clang.
     * Code navigation with rtags (based on on-the-fly compilation).
     * Improved gdb experience.
     * F8 compile, F9 recompile.
   * **Python** linting, code navigation and correct code completion.
-    * Relies on Elpy mode - M-. and M-* for jumping into and jumping back.
-  * Comprehensive **latex** environment - C-c C-a for building - builds all - latex, pdflatex and bibtex in one shot
-    * For adding to bib tex files - please refer to development/latex folder.
-  * Super comprehensive **Ipython** mode using Ein.
+    * Relies on Elpy mode - `M-.` and `M-*` for jumping into and jumping back.
+    * Auto formatting using autopep8 package - Works really well: formats and indents to this standard format.
+  * Comprehensive **latex** environment - `C-c C-a` for building - builds all - latex, pdflatex and bibtex in one shot
+    * For adding to bib tex files - please refer to development/latex/_init.el file.
+    * Post compilation - automatically opens up pdf in partitioned emacs-window with highlighting the changes using arrow.
+  * Super comprehensive **IPython** mode using Ein.
   * Spellcheck everywhere (code comments, text).
-  * Smart completion everywhere (shell script, lisp, text, python).
   * Check content of .emacs for more details..
   * `which-key` package shows key bindings when you press a key. A super-important package if you forget bindings.
   * I also use `treemacs` when working on libraries. If you want to use enanle it inside navigation/_init.el.
+  * **Dockerfile** mode - helps in building docker directly from emacs
+  * Semantic grouping using expand-region - helpful in navigating foreign codebases with different formatting.
+  * If `automatically` removing whitespace is not ON (Ipython mode) - use `F12`.
+  * Kill a buffer by `pause/break` key.
 
 ## Install on Linux - tested on Ubuntu 16.04
    Run
@@ -39,21 +44,22 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
   * For better colors on Mac terminals use color prefix before opening command `TERM=xterm-256color emacs`
 
 ## Bug
-
    * Rarely an error saying flycheck-mode failed will appear when opening a C++ buffer.
    * Very rarely emacs will hang when working in a C++ buffer (seems related to rtags).
    * If you experience display glitches or issue with indentation, make sure to upgrade to emacs 26.
+   * IPython mode's EIN currently cannot have automatic whitespace removal.
 
 
 ## Usage Notes
    * For some reason cmake-ide install fails. Just install using emacs.
    * Follow `install` section above.
    * Make sure cask and Jedi and irony-server are installed.
+   * I change themes frequently so I have a lot of themes pre-installed in display/_init.el
 
 ### Rtags for C/C++ code completion
    * For Cmake based project use cmake to compile with output of compile commands.json
    * For C: to create compile_commands.json (Makefile project) use Bear. If you do not want to use bear then follow - https://eklitzke.org/using-emacs-and-rtags-with-autotools-c++-projects (section - configuring gcc wrapper).
-
+   * Checkout full keybindings in development/c/_init.el file.
 
 ### Python and IPython
    * For jupyter make sure right kernels are installed.
