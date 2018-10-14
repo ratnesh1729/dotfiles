@@ -36,6 +36,7 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
   * On mac use `brew` to install cmake, rtags, cask.
   * Then just hyper link ~/.emacs.d to this repo's emacs.d.
   * You will still need to follow sections below for a few stuffs and notes.
+  * For better colors on Mac terminals use color prefix before opening command `TERM=xterm-256color emacs`
 
 ## Bug
 
