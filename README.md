@@ -54,7 +54,7 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
    * For C: to create compile_commands.json (Makefile project) use Bear. If you do not want to use bear then follow - https://eklitzke.org/using-emacs-and-rtags-with-autotools-c++-projects (section - configuring gcc wrapper).
 
 
-### Python
+### Python and IPython
    * For jupyter make sure right kernels are installed.
    * Please refer to EIN here for more info - on various ein functions - https://github.com/millejoh/emacs-ipython-notebook
    * For elpy, you can check M-x elpy-status - this will show all configuration info including virtualenv you're in.
