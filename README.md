@@ -18,7 +18,7 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
     * F8 compile, F9 recompile.
   * **Python** linting, code navigation and correct code completion.
     * Relies on Elpy mode - M-. and M-* for jumping into and jumping back.
-  * Comprehensive **latex** environment - C-a for building - builds all - latex, pdflatex and bibtex in one shot
+  * Comprehensive **latex** environment - C-c C-a for building - builds all - latex, pdflatex and bibtex in one shot
     * For adding to bib tex files - please refer to development/latex folder.
   * Super comprehensive **Ipython** mode using Ein.
   * Spellcheck everywhere (code comments, text).
