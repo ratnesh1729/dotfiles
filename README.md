@@ -4,7 +4,7 @@ Modified from https://github.com/jardon-u/dotfiles.git for my usage
 
 Clone - Use `recursive` clone to get sky-color-clock (sample in screenshot below)
 
-Sample screenshot in python mode - ![Alt text](./screenshot.png?raw=true "Python")
+Sample screenshot in python mode: Once you wait on a function in the pop-up - help-info comes a few seconds later - ![Alt text](./screenshot.png?raw=true "Python")
 
 
 * Some important features
@@ -66,4 +66,8 @@ Sample screenshot in python mode - ![Alt text](./screenshot.png?raw=true "Python
 
 ### Sky color mode
   * Cloning recursively automatically installs `sky-color-clock`. In order to get weather info you need to replace
-    variable `API-Key` in the display/_init.el file. Also include proper latitude and city id in the same place.
+    variable `API-Key` in the display/_init.el file. Also include proper latitude and city id in the same place
+
+### Org Mode
+  * I started using org mode for tasks, and also starting on using it for writing source code and converting from org to latex and related.
+  * I hope to update the org mode conf file as I use it more. 
