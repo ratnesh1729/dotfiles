@@ -47,7 +47,7 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
    * Rarely an error saying flycheck-mode failed will appear when opening a C++ buffer.
    * Very rarely emacs will hang when working in a C++ buffer (seems related to rtags).
    * If you experience display glitches or issue with indentation, make sure to upgrade to emacs 26.
-   * IPython mode's EIN currently cannot have automatic whitespace removal.
+   * IPython mode's EIN currently cannot have automatic whitespace removal. Use `f12` to remove whitespace.
 
 
 ## Usage Notes
