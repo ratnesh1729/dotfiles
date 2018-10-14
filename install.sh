@@ -7,7 +7,7 @@ ln -sinv ${DIR}/emacs.d ~/.emacs.d
 # install minimal tools to survive
 # install python stuff (needed by emacs conf)
 # install c++ stuff (needed by emacs conf)
-sudo apt-get install git git-gui gitk cmake ipython python-virtualenv pylint clang-3.8 libclang-3.8-dev libncurses5-dev
+sudo apt-get -y install git git-gui gitk cmake-data cmake ipython python-virtualenv pylint clang-3.8 libclang-3.8-dev libncurses5-dev
 
 # Emacs
 read -p "Do you want to install emacs 26.1 from source (configuration may not work otherwise) ? (y) " -n 1 -r
@@ -38,3 +38,4 @@ fi
 echo "*** WARNING *** You may need to run these commands in emacs:"
 echo " M-x irony-install-server "
 echo " M-x jedi:install-server "
+echo "You may need to check libclang version. I have install clang3.8."
