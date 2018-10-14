@@ -67,7 +67,7 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
    * For elpy, you can check M-x elpy-status - this will show all configuration info including virtualenv you're in.
 
 ### Latex
-  * May need to do `sudo apt-get install texlive-fonts-recommended` and `sudo apt-get install texlive-fonts-extra`
+  * May need to do `sudo apt-get install texlive-fonts-recommended` and `sudo apt-get install texlive-fonts-extra` for some fonts mainly used in computer vision conferences.
   * Latex mode also displays pdf on side and for pdf viewing - uncomment (only for the first time using this configuration repo) -
   (`pdf-tools-install`) in  editing/_init.el . Else it will keep bothering with installation every time you run emacs.
 
