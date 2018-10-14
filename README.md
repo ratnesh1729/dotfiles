@@ -61,8 +61,8 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
 
 ### Latex
   * May need to do sudo apt-get install texlive-fonts-recommended and sudo apt-get install texlive-fonts-extra
-  * Latex mode also displays pdf on side and for pdf viewing - uncomment `only for the first time using this configuration` -
-  (pdf-tools-install) in  editing/_init.el . Else it will keep bothering with installation every time you run emacs.
+  * Latex mode also displays pdf on side and for pdf viewing - uncomment (only for the first time using this configuration repo) -
+  (`pdf-tools-install`) in  editing/_init.el . Else it will keep bothering with installation every time you run emacs.
 
 ### Sky color mode
   * Cloning recursively automatically installs `sky-color-clock`. In order to get weather info you need to replace
