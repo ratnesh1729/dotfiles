@@ -78,3 +78,7 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
 ### Org Mode
   * I started using org mode for tasks, and also starting on using it for writing source code and converting from org to latex and related.
   * I hope to update the org mode conf file as I use it more. 
+  
+### Shell Mode
+  * Use `windkows-key+enter-key` for opening shell. On Mac use `command-key+return-key` for openning ansi-term.
+  * Once inside shell you can switch to line mode by `C-c C-j` which is helpful for copy/paste and buffer selection. You can come back to char mode by `C-c C-k`.
