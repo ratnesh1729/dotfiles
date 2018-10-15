@@ -1,5 +1,5 @@
 # dotfiles for emacs
-Extended and modified from [this repo](https://github.com/jardon-u/dotfiles.git) for my usage
+Extended and modified from [this repo](https://github.com/jardon-u/dotfiles.git) for my usage.
 ## Content
 
 Clone - Use `recursive` clone to get sky-color-clock (sample in screenshot below)
@@ -10,7 +10,7 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
 * Some important features
   * auto install emacs and rtags (for cpp completion), including all packages when emacs loads first time.
   * Extensive usage of **use-package** commands. This helps me changing machines easily.
-  * Automatically finds `indentation scheme` for python and c++
+  * Automatically finds `indentation scheme` for existing files in python and c++.
   * Comprehensive **C++** environment
     * Flycheck with clang.
     * Code navigation with rtags (based on on-the-fly compilation).
@@ -60,15 +60,17 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
    * For Cmake based project use cmake to compile with output of compile commands.json
    * For C: to create compile_commands.json (Makefile project) use Bear. If you do not want to use bear then follow - https://eklitzke.org/using-emacs-and-rtags-with-autotools-c++-projects (section - configuring gcc wrapper).
    * Checkout full keybindings in development/c/_init.el file.
+   * Post rtags installtion, rtags's daemon needs to be started - `./rdm &` - you can add this to your cron-job or in emacs too. I prefer to do it in cron-job.
 
 ### Python and IPython
-   * For jupyter make sure right kernels are installed.
-   * Please refer to EIN here for more info - on various ein functions - https://github.com/millejoh/emacs-ipython-notebook
+   * For jupyter make sure right kernels are installed. (refer [virutalenv with Ipython/Jupyter](https://anbasile.github.io/programming/2017/06/25/jupyter-venv/))
+   * Please refer to EIN [here](https://github.com/millejoh/emacs-ipython-notebook) for more info - on various ein functions and key strokes.
    * For elpy, you can check M-x elpy-status - this will show all configuration info including virtualenv you're in.
 
 ### Sky color mode
   * Cloning recursively automatically installs `sky-color-clock`. In order to get weather info you need to replace
     variable `API-Key` in the display/_init.el file. Also include proper latitude and city id in the same place
+  * Clock on the right hand corner on the screenshots is from sky-color.
 
 ### Org Mode
   * I started using org mode for tasks, and also starting on using it for writing source code and converting from org to latex and related.
