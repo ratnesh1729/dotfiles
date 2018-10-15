@@ -1,5 +1,5 @@
 # dotfiles for emacs
-Modified from [this repo](https://github.com/jardon-u/dotfiles.git) for my usage
+Extended and modified from [this repo](https://github.com/jardon-u/dotfiles.git) for my usage
 ## Content
 
 Clone - Use `recursive` clone to get sky-color-clock (sample in screenshot below)
