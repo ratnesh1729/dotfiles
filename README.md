@@ -66,11 +66,6 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
    * Please refer to EIN here for more info - on various ein functions - https://github.com/millejoh/emacs-ipython-notebook
    * For elpy, you can check M-x elpy-status - this will show all configuration info including virtualenv you're in.
 
-### Latex
-  * May need to do `sudo apt-get install texlive-fonts-recommended` and `sudo apt-get install texlive-fonts-extra` for some fonts mainly used in computer vision conferences.
-  * Latex mode also displays pdf on side and for pdf viewing - uncomment (only for the first time using this configuration repo) -
-  (`pdf-tools-install`) in  editing/_init.el . Else it will keep bothering with installation every time you run emacs.
-
 ### Sky color mode
   * Cloning recursively automatically installs `sky-color-clock`. In order to get weather info you need to replace
     variable `API-Key` in the display/_init.el file. Also include proper latitude and city id in the same place
@@ -82,3 +77,11 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
 ### Shell Mode
   * Use `windkows-key+enter-key` for opening shell. On Mac use `command-key+return-key` for openning ansi-term.
   * Once inside shell you can switch to line mode by `C-c C-j` which is helpful for copy/paste and buffer selection. You can come back to char mode by `C-c C-k`.
+
+### Latex
+  * May need to do `sudo apt-get install texlive-fonts-recommended` and `sudo apt-get install texlive-fonts-extra` for some fonts mainly used in computer vision conferences.
+  * Latex mode also displays pdf on side and for pdf viewing - uncomment (only for the first time using this configuration repo) -
+  (`pdf-tools-install`) in  editing/_init.el . Else it will keep bothering with installation every time you run emacs.
+  * Sample screenshot for latex mode -  ![Alt text](./latex.png?raw=true "Latex mode")
+
+
