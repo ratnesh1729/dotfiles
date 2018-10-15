@@ -25,8 +25,8 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
   * Super comprehensive **IPython** mode using Ein.
   * Spellcheck everywhere (code comments, text).
   * Check content of .emacs for more details..
-  * `which-key` package shows key bindings when you press a key. A super-important package if you forget bindings.
-  * I also use `treemacs` when working on libraries. If you want to use enanle it inside navigation/_init.el.
+  * **which-key** package shows key bindings when you press a key. A super-important package if you forget bindings.
+  * I also use **treemacs** when working on libraries. If you want to use enanle it inside navigation/_init.el.
   * **Dockerfile** mode - helps in building docker directly from emacs
   * Semantic grouping using expand-region - helpful in navigating foreign codebases with different formatting.
   * If `automatically` removing whitespace is not ON (Ipython mode) - use `F12`.
