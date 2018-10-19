@@ -65,7 +65,7 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
 ### Python and IPython
    * For jupyter make sure right kernels are installed. (refer [virutalenv with Ipython/Jupyter](https://anbasile.github.io/programming/2017/06/25/jupyter-venv/))
    * Please refer to EIN [here](https://github.com/millejoh/emacs-ipython-notebook) for more info - on various ein functions and key strokes.
-   * For elpy, you can check M-x elpy-status - this will show all configuration info including virtualenv you're in.
+   * For elpy, you can check `M-x elpy-status` - this will show all configuration info including virtualenv you're in.
 
 ### Sky color mode
   * Cloning recursively automatically installs `sky-color-clock`. In order to get weather info you need to replace
