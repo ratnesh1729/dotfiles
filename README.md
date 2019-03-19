@@ -62,7 +62,7 @@ Sample screenshot in python mode: Once you wait on a function in the pop-up - he
    * Checkout full keybindings in development/c/_init.el file.
    * Post rtags installtion, rtags's daemon needs to be started - `./rdm &` - you can add this to your cron-job or in emacs too. I prefer to do it in cron-job.
    * For C++17 - we should use clang5.0 and above during rtags compilation. Rdm sometimes fail to parse the correct headers and we can include them as shown in https://github.com/Andersbakken/rtags/issues/1095 (section - see reply Nov 20, 2017).
-   * Another helpful note for RTAGS [weblink](https://vxlabs.com/2016/04/11/step-by-step-guide-to-c-navigation-and-completion-with-emacs-and-the-clang-based-rtags/)
+   * Another helpful note for RTAGS: [weblink](https://vxlabs.com/2016/04/11/step-by-step-guide-to-c-navigation-and-completion-with-emacs-and-the-clang-based-rtags/).
 
 ### Python and IPython
    * For jupyter make sure right kernels are installed. (refer [virutalenv with Ipython/Jupyter](https://anbasile.github.io/programming/2017/06/25/jupyter-venv/))
