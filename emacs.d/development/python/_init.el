@@ -93,7 +93,7 @@
   (add-hook 'ein:connect-mode-hook 'ein:jedi-setup))
 
 ;;(require 'ein-dev)
-(require 'ein-loaddefs)
+;;(require 'ein-loaddefs) Somehow could not find this - maybe dependent upon some EINs
 (require 'ein-notebook)
 (require 'ein-subpackages)
 
