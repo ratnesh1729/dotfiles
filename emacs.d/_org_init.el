@@ -11,7 +11,8 @@
 (setq org-src-fontify-natively t) ;; use syntax highlighting in source blocks
 (setq org-src-tab-acts-natively t) ;; use TAB as if it is issued in language's major mode
 (add-hook 'org-mode-hook 'flyspell-mode) ;; enable spell check
-(add-to-list 'org-structure-template-alist
-             '("el" "#+BEGIN_SRC emacs-lisp\n?\n#+END_SRC")) ;; helps in quickly inserting a block of elisp
+;; THE FOLLOWING COULD NOT WORK ON 18.04
+;;(add-to-list 'org-structure-template-alist
+;;             '("el" "#+BEGIN_SRC emacs-lisp\n?\n#+END_SRC")) ;; helps in quickly inserting a block of elisp
 
 
